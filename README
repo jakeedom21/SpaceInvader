@@ -1,0 +1,16 @@
+These are agents that will work with gym and Atari
+These are two different agents one that is inspired by how I would play it
+The other going simply going from left to right
+
+To install either of the these agents
+Make sure to import the function from the program into yours
+example for both
+import space_invaders_human_inspire
+import space_invaders_row_by_row
+This will make it possible to use the Agent function 
+Note there are others functions that the Agent needs 
+Therefore you shouldn't import only the Agent function
+From there call the Agent and place the eviroment action space in it
+After that call act, the observation, reward and done
+From there it will return the appropriate action for that moment 
+
